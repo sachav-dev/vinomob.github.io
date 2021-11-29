@@ -1,0 +1,255 @@
+/* requêtes mobile d'abord */
+
+
+/* styles pour n'importe quelle largeur */
+
+.header {
+    padding: 30px 0 20px 0;
+    margin-bottom: 25px;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+}
+
+.logo {
+    font-weight: 600;
+    color: rgb(255, 209, 143);
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 10px;
+    z-index: 100;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav .button {
+    width: 48%;
+    margin: 2px 0;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.action {
+    text-align: center;
+    padding-top: 37px;
+}
+
+.action h1 {
+    margin: 0;
+}
+
+.action h2 {
+    margin: 0 0 20px 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.text-centralise {
+    text-align: center;
+}
+
+.largeur-сent-pour-cent-centralise {
+    width: 100%;
+    text-align: center;
+}
+
+.largeur-сent-pour-cent {
+    width: 100%;
+}
+
+.largeur-сent-pour-cent-hauteur-automatique {
+    width: 100%;
+    height: auto;
+}
+
+
+/* styles pour des largeurs plus grandes que les mobiles */
+
+
+/* styles pour une largeur de 400px et plus */
+
+@media (min-width: 400px) {}
+
+
+/* styles pour des largeurs supérieures à celles des phablettes */
+
+
+/* styles pour une largeur de 550px et plus */
+
+@media (min-width: 550px) {
+    .header {
+        padding: 40px 0 50px 0;
+    }
+    .logo {
+        position: static;
+        background-color: transparent;
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .nav .button {
+        width: auto;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 4.2rem;
+    }
+}
+
+.footer {
+    background-color: rgba(5, 5, 5, 0.8);
+    padding-top: 25px;
+}
+
+.social-media-list li {
+    list-style: none;
+    margin: 0;
+}
+
+.social-media-list a {
+    text-decoration: none;
+}
+
+.icon>svg {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+.footer .copyright {
+    display: flex;
+    flex: 2 1 500px;
+    margin-right: 30px;
+    color: white;
+}
+
+.footer .signup {
+    display: flex;
+    flex: 1 1 250px;
+    color: white;
+    margin-bottom: 3%;
+}
+
+.signup label {
+    width: 100%;
+}
+
+.signup input[type="email"],
+.signup input[type="text"],
+.signup input[type="password"] {
+    border-radius: 4px 0 0 4px;
+    flex: 1;
+}
+
+.signup input[type="submit"] {
+    border-radius: 0 4px 4px 0;
+    padding: 0 10px;
+    color: black;
+}
+
+
+/* styles pour des largeurs supérieures à celles des tablettes  */
+
+
+/* styles pour la largeur 750px et plus */
+
+@media (min-width: 750px) {
+    .logo {
+        font-size: 3rem;
+        position: relative;
+        top: 5px;
+    }
+}
+
+
+/* styles pour des largeurs supérieures à celles des écrans d'ordinateur */
+
+
+/* styles pour une largeur de 1000px et plus */
+
+@media (min-width: 1000px) {}
+
+
+/* styles pour des largeurs supérieures à celles des écrans d'ordinateur HD */
+
+
+/* styles pour une largeur de 1200px et plus */
+
+@media (min-width: 1200px) {}
